@@ -1,0 +1,19 @@
+{
+    "name": "phpas2/phpas2-demo",
+    "description": "A test project utilizing the PHPAS2 library",
+    "type": "project",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/phpas2/phpas2.git"
+        }
+    ],
+    "require": {
+        "phpas2/phpas2": "1.0.x-dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "~3.3.10"
+    }
+}
